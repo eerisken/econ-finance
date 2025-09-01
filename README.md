@@ -18,7 +18,7 @@
 
 - Python 3.11+
 - Libraries:
-  - `pandas`
+  - `yfinance`
   - `mlxtend`
   - `networkx`
   - `matplotlib`

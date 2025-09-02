@@ -21,6 +21,5 @@
   - `yfinance`
   - `mlxtend`
   - `networkx`
-  - `matplotlib`
-  - `pyvis` (for interactive visualization, optional)
+
 

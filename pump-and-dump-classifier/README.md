@@ -14,6 +14,10 @@ The project overcomes the challenge of scarce real-world data by creating a larg
 
 Each synthetic time series is a self-contained, 252-day sequence. This process ensures the model learns to identify the manipulation pattern itself, independent of external market factors.
 
+## Synthetic Data Visualization
+
+![Synthetic data](simulated-data.png)
+
 ## 2. Model Architecture
 
 The classifier is built on a Long Short-Term Memory (LSTM) network, a type of recurrent neural network (RNN) well-suited for time-series analysis. The model's architecture consists of:

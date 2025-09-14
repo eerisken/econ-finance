@@ -1,6 +1,6 @@
-# Deep Learning-Based Financial Market Manipulation Classifier
+# Deep Learning-Based Stock Manipulation Classifier
 
-This project is a deep learning system designed to automatically classify stock price time series as either "pump-and-dump" events or "normal" market behavior. The core of the system is an end-to-end machine learning pipeline built using Python and the PyTorch deep learning framework.
+This project is a deep learning system designed to automatically classify stock price time series as either "**pump-and-dump**" events or "**normal**" market behavior. The core of the system is an end-to-end machine learning pipeline built using Python and the PyTorch deep learning framework.
 
 ## 1. Synthetic Data Generation
 

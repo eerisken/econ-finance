@@ -21,8 +21,8 @@ This project analyzes trading activity in financial markets to identify patterns
 ---
 
 ## Further Ideas for stock market manipulator detection
-
-The trade dataset is segmented into chunks of approximately 150–200 transactions. Each chunk is then represented as a directed graph, where nodes correspond to market participants and edges capture the flow of trades from sellers to buyers. By applying community detection algorithms on these graphs, groups of tightly connected traders—akin to “market baskets”—are identified. Subsequently, association rule mining is employed within and across these communities to uncover recurring trading patterns. This layered approach provides a way to detect potentially manipulative behavior by revealing abnormal or coordinated transaction structures in the market.
+# Trade Networks + Association Rules Mining
+The trade dataset (sorted by date-time) can be segmented into chunks of approximately 150–200 transactions. Each chunk is then represented as a directed graph, where nodes correspond to market participants and edges capture the flow of trades from sellers to buyers. By applying community detection algorithms on these graphs, groups of tightly connected traders—akin to “market baskets”—are identified. Subsequently, association rule mining is employed within and across these communities to uncover recurring trading patterns. This layered approach provides a way to detect potentially manipulative behavior by revealing abnormal or coordinated transaction structures in the market.
 
 These directed graphs can also be subjected to further graph-analytic techniques, such as identifying recurring "motifs", determining hubs and authorities within the trading network, and characterizing structural properties of trader interactions.
 
